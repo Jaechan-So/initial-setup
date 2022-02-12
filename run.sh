@@ -33,3 +33,10 @@ git config --global user.email \"$user_email\"
 ssh-keygen -t ed25519 -C \"$user_email\"
 eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_ed25519
+
+# Setup zsh configuration.
+cat << EOF >> ~/.zshrc
+export PATH="/opt/homebrew/opt/curl/bin:$PATH"
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+EOF
