@@ -16,3 +16,5 @@ chmod 764 ./run.sh
 ```
 
 2. Add karabiner setting (`karabiner_complex_modification.json`) in `~/.config/karabiner/karabiner.json`. It should be added in `profiles.complex_modifications.rules`.
+
+3. Change a shortcut for 'Select Previous Input Source' to F18.
