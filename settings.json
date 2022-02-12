@@ -1,16 +1,9 @@
 {
-    "workbench.colorTheme": "Default Dark+",
-    "window.zoomLevel": 1,
-    "editor.bracketPairColorization.enabled": true,
-    "files.insertFinalNewline": true,
-    "gitlens.codeLens.enabled": false,
-    "editor.guides.bracketPairs": "active",
-    "files.trimTrailingWhitespace": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true,
-      "editor.autoClosingBrackets": "always",
-      "editor.autoClosingQuotes": "always"
-    }
+  "workbench.colorTheme": "Default Dark+",
+  "window.zoomLevel": 1,
+  "editor.bracketPairColorization.enabled": true,
+  "files.insertFinalNewline": true,
+  "gitlens.codeLens.enabled": false,
+  "editor.guides.bracketPairs": "active",
+  "files.trimTrailingWhitespace": true
 }
