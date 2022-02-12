@@ -1,0 +1,32 @@
+{
+    "description": "Similar to HKKB key layouts.",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "caps_lock"
+            },
+            "to": [
+                {
+                    "key_code": "left_control"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "spacebar",
+                "modifiers": {
+                    "mandatory": [
+                        "left_command"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "caps_lock"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
