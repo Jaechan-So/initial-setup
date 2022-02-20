@@ -40,3 +40,5 @@ export PATH="/opt/homebrew/opt/curl/bin:$PATH"
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 EOF
+
+cp robbyrussell.zsh-theme ~/.oh-my-zsh/themes/robbyrussell.zsh-theme
