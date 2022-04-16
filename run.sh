@@ -19,6 +19,10 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 brew install zsh-syntax-highlighting
 brew reinstall zsh-autosuggestions
 
+## fd, fzf
+brew install fd
+brew install fzf
+
 # Activate command line VSCode opening.
 cp -r /Applications/Visual\ Studio\ Code.app ~/Applications/Visual\ Studio\ Code.app
 
