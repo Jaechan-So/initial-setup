@@ -1,0 +1,12 @@
+[column]
+        ui = auto
+[branch]
+        sort = -committerdate
+[tag]
+        sort = version:refname
+[core]
+        excludesfile = ~/.gitignore
+[diff]
+        algorithm = histogram
+        colorMoved = plain
+        renames = true
