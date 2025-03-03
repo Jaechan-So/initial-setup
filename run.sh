@@ -46,3 +46,6 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 EOF
 
 cp robbyrussell.zsh-theme ~/.oh-my-zsh/themes/robbyrussell.zsh-theme
+
+# Setup .gitconfig.
+cp .gitconfig ~/.gitconfig
